@@ -1,0 +1,79 @@
+/* .collapse li:hover{
+	background-color: #e2e2e2;
+} */
+
+section {
+    padding-top: 1.5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+.to-top {
+    background: #fff676;
+    position: fixed;
+    bottom: 100px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4;
+}
+
+.to-top.nyala {
+    bottom: 32px;
+    transition: all 0.4s;
+    visibility: visible;
+    pointer-events: visible;
+    opacity: 1;
+}
+
+.menu-items {
+    max-width: fit-content;
+    background-color: lightgreen;
+    overflow-x: auto;
+}
+
+.hehe {
+    max-height: 90px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.form-registration .form-floating:focus-within {
+    z-index: 2;
+}
